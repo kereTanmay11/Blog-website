@@ -1,0 +1,72 @@
+@media screen and (max-width:1200px) {
+    .navbar{
+        height: 110px;
+        flex-direction: column;
+    }
+    .nav-left{
+        flex-direction: column;
+        align-items: center;
+        /* margin: 10px 0; */
+    }
+    .nav-left ul{
+        font-size: 17px;
+        margin: 25px 0px 5px 0px;
+    }
+
+    .form-input{
+        padding: 4px;
+        font-size: 14px;
+    }
+
+    .btn{
+        padding: 2px 8px;
+    }
+
+    .content-left{
+        display: none;
+    }
+
+    .content-right h1{
+        font-size: 25px;
+    }
+    .content-right p{
+        font-size: 16px;
+    }
+
+    .home-article,.row{
+        flex-direction: column-reverse;
+    }
+    .home-article-content{
+        width: 100%;
+    }
+
+    .contact-form{
+        padding: 15px 0;
+    }
+
+    .form-box input, textarea{
+        width: 70vw;
+        font-size: 15px;
+    }
+
+    .author-info{
+        width: 60%;
+    }
+
+    .year-box {
+        position: absolute;
+        right: -35px;
+        display: flex;
+    }
+    .year-box div{
+        margin: 0 5px;
+    }
+
+    .home-articles h2{
+        margin-top: 25px;
+    }
+
+    .post-img{
+        height: 240px;
+    }
+}

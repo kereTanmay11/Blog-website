@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-content{
+    height: 80vh;
+    margin-top: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url("../img/home.png");
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.contact-form{
+    padding: 15px 5px
+    /* height: 80vh; */
+}
